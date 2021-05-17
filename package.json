@@ -12,9 +12,19 @@
     "url": "git+https://github.com/cometkim/gatsby-plugin-concurrent-mode.git"
   },
   "homepage": "https://github.com/cometkim/gatsby-plugin-concurrent-mode",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "concurrent-mode"
+  ],
   "scripts": {
-    "build": "babel gatsby -d . -x .ts,.tsx --presets gatsby-package"
+    "build": "babel gatsby -d . -x .ts,.tsx --presets gatsby-package",
+    "prepack": "yarn build"
   },
+  "files": [
+    "index.js",
+    "gatsby-browser.js"
+  ],
   "peerDependencies": {
     "gatsby": "^2.0.0 || ^3.0.0",
     "react": "*",
