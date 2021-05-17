@@ -1,0 +1,15 @@
+*.DS_Store
+*.log
+*.tgz
+
+# Why use node_modules
+node_modules
+
+# Yarn v2
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build
+/*.js
+!/index.js
