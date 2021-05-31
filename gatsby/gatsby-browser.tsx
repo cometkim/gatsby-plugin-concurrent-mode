@@ -10,7 +10,11 @@ interface Callable {
 
 export const replaceHydrateFunction = () => {
   return (element: React.ReactElement, container: Element, callback: Callable) => {
-    ReactDOM.unstable_createRoot(container, {
+    ('createRoot' in ReactDOM
+     // @ts-ignore
+      ? ReactDOM.createRoot
+      : ReactDOM.unstable_createRoot
+    )(container, {
       hydrate: true,
       hydrationOptions: { onHydrated: callback },
     }).render(element);

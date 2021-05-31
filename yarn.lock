@@ -2364,7 +2364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.5":
+"@types/react@npm:*":
   version: 17.0.5
   resolution: "@types/react@npm:17.0.5"
   dependencies:
@@ -2372,6 +2372,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: f9793e8113f14122d6ed20643b4fe27d30e10d7c80571a1d238c13f8171864f2a7b337194bf41310724498586ed4560fffd081a2d21e488afbb1aca33534189b
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17.0.8":
+  version: 17.0.8
+  resolution: "@types/react@npm:17.0.8"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: b59a3abafd240b2880f9e6a11b2b7f75165888260c56e95a77ed10a7dd55570b307fb2356eda7fde2a8e1255d2def11797e4ae9800ae114a1f578546acabda67
   languageName: node
   linkType: hard
 
@@ -7016,7 +7027,7 @@ fsevents@~2.3.1:
     "@babel/cli": ^7.13.16
     "@babel/core": ^7.14.2
     "@babel/plugin-transform-typescript": ^7.13.0
-    "@types/react": ^17.0.5
+    "@types/react": ^17.0.8
     "@types/react-dom": ^17.0.5
     "@yarnpkg/pnpify": ^3.0.0-rc.3
     babel-preset-gatsby-package: ^1.5.0
@@ -12306,16 +12317,16 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-dom@npm:0.0.0-experimental-1a2d79250":
-  version: 0.0.0-experimental-1a2d79250
-  resolution: "react-dom@npm:0.0.0-experimental-1a2d79250"
+"react-dom@npm:0.0.0-experimental-d75105fa9":
+  version: 0.0.0-experimental-d75105fa9
+  resolution: "react-dom@npm:0.0.0-experimental-d75105fa9"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    scheduler: 0.0.0-experimental-1a2d79250
+    scheduler: 0.0.0-experimental-d75105fa9
   peerDependencies:
-    react: 0.0.0-experimental-1a2d79250
-  checksum: 965f001f6f89ea54bd075f960ad6da5913beee7b7c395b43e1c46eec68e7402b53b821c97107737b936d5ebc7db87bda4e0230c3de3e885421ed3cf45e414561
+    react: 0.0.0-experimental-d75105fa9
+  checksum: d91dc224e08e374222a8100268fe4fc64f93459b911d7db2d3932875fa262e59b2b85ec73786de5ef5e1c788e3892a0837f394f50ed13545d9549e48c1d3eb8e
   languageName: node
   linkType: hard
 
@@ -12347,13 +12358,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react@npm:0.0.0-experimental-1a2d79250":
-  version: 0.0.0-experimental-1a2d79250
-  resolution: "react@npm:0.0.0-experimental-1a2d79250"
+"react@npm:0.0.0-experimental-d75105fa9":
+  version: 0.0.0-experimental-d75105fa9
+  resolution: "react@npm:0.0.0-experimental-d75105fa9"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 3ea5067d0e3a3e8e0eb7634b8f8f6f3788fffcfd20f18a193bf42b2620e12f4ec7d74ffd66234d80c03a1b15bfe29f76c8f64bf2af776f95db4805ffab8bab5d
+  checksum: 0ac000b501b97ec797b58a97ce3376a6498773164e2d14d8e8e913f54c63abc09e6adb7c6c1a9b519fc5d3ea2a0d771d29cd3482e7be69c69fff56b81f13301f
   languageName: node
   linkType: hard
 
@@ -12979,13 +12990,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.0.0-experimental-1a2d79250":
-  version: 0.0.0-experimental-1a2d79250
-  resolution: "scheduler@npm:0.0.0-experimental-1a2d79250"
+"scheduler@npm:0.0.0-experimental-d75105fa9":
+  version: 0.0.0-experimental-d75105fa9
+  resolution: "scheduler@npm:0.0.0-experimental-d75105fa9"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 77b0d712b3fde62d86178e69f0ceb307629868bab7fc24ade2529b0ba0efaf44ef84d8f552d7b4ca32f55b32c60a220ddaf5c093091cb38f847bf6d18a149a7a
+  checksum: e5aadbb052f3b680d2fadaab88777a946be15a2a27b53d22e2c0f56b994c2774e734548c526755cd9656df77b2d3d33a2587d389f01d23f81c981ee8e4a6c755
   languageName: node
   linkType: hard
 
